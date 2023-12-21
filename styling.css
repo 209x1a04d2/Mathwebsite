@@ -1,0 +1,149 @@
+#container{
+    
+    width: 1050px;
+    padding: 10px 0px 0px 0px;
+    margin:0 auto;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+h1 a{
+    text-decoration: none;
+    font-size:50px;
+    
+    color: black;
+}
+#brand{
+    float: left;
+}
+#searchBox{
+    float: right;
+    background: rgb(109, 8, 203);
+    width:400px;
+    height:50px;
+    padding: 20px 20px 0px 20px;
+    margin-top: 20px;
+}
+#header{
+    height: 100px;
+    padding-bottom: 20px;
+}
+.text{
+    float: left;
+    width:200px;
+    padding:7px;
+    font-size: 15px;
+    color: rgb(73, 41, 41);
+    background: white url(images/search.jpg) right center no-repeat;
+    border: 1px solid black;
+}
+.submit{
+    float: right;
+    padding:5px;
+    font-weight: bold;
+    background: rgb(53, 59, 181);
+    color:white;
+}
+#searchicon{
+    padding: 6px;
+}
+.clear{
+    clear: both;
+}
+ul{
+    list-style: none;
+}
+#menu ul li{
+    float: left;
+    padding:0px 44px;
+    height: 35px;
+    border-right: 1px solid white;
+}
+#menu{
+    height: 70px;
+    background: rgb(106, 37, 37);
+    padding: 5px 0px 0px 0px;
+}
+#menu ul li a{
+    text-decoration: none;
+    color: whitesmoke;
+    font-size: 20px;
+    line-height: 30px;
+    -moz-transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+#menu ul li:last-child{
+    border-right: none;
+}
+#menu ul li a:hover, #menu ul li a.active{
+    font-size: 25px;
+    font-style: bold;
+    color: rgb(199, 203, 206);
+}
+#introduction{
+    background: rgb(100, 189, 100);
+    padding: 30px;
+    margin: 16px 0px;
+}
+#introduction h3{
+    font-size: 45px;
+    color: rgb(32, 68, 68);
+    font-weight: normal;
+}
+#introduction p{
+    font-size: 25px;
+    color: rgb(19, 86, 50) ;
+    text-align: justify;
+}
+.sidebar{
+    border:1px solid brown;
+    height:500px;
+    width:450px;
+    border-radius: 20px;
+    padding: 10px 20px 20px 30px;
+}
+.sidebar h3{
+    font-size: 30px;
+    color: rgb(73, 44, 28);
+}
+.sidebar ul li a{
+    text-decoration: none;
+    color: rgb(151, 100, 81);
+    font-size: 20px;
+}
+.sidebar ul li a:hover,.sidebar ul li a.active{
+    color: rgb(26, 20, 15);
+    font-size: 23px;
+    -moz-transition: font-size 0.3s ease;
+    -webkit-transition: font-size 0.3s ease;
+    -o-transition: font-size 0.3s ease;
+    -ms-transition: font-size 0.3s ease;
+    transition: font-size 0.3s ease;
+}
+#leftsidebar ul{
+    padding-top:18px ;
+}
+#leftsidebar ul li{
+    padding-bottom: 6px;
+    padding-left: 10px;
+    list-style-image: url(images/arrows.jpg);
+}
+#rightsidebar ul li{
+    padding:15px 0px 10px 30px;
+    list-style-image: url(images/tick.png);
+}
+#leftsidebar{
+    float: left;
+}
+#rightsidebar{
+    float: right;
+}
+.footer{
+    background: rgb(191, 140, 46);
+    height: 50px;
+    text-align: center;
+    padding-top:1px;
+    margin-top: 15px;
+    font-size: 20px;
+}
